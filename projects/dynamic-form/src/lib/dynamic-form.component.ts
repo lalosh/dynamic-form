@@ -1,7 +1,4 @@
-import { BaseReturnType } from './form-items/base';
 import { Component, OnInit, Input } from '@angular/core';
-import { TextBoxFormItem, TextBoxReturnType } from './form-items/text-box';
-import { Validators } from '@angular/forms';
 
 
 
@@ -15,10 +12,11 @@ export class DynamicFormComponent implements OnInit {
   constructor() { }
 
 
-  @Input() formItems: {
-    [key: string]: TextBoxReturnType | BaseReturnType
-  };
+  // @Input() formItems: {
+  //   [key: string]: TextBoxReturnType | BaseReturnType
+  // };
 
+  @Input() formItems: any;
 
   ngOnInit(): void {
 
