@@ -1,6 +1,9 @@
 {
-  "name": "dynamic-form",
+  "name": "@lalosh/dynamic-form",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/lalosh/dynamic-form"
+  },
   "peerDependencies": {
     "@angular/common": "^10.0.5",
     "@angular/core": "^10.0.5"
