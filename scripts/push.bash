@@ -1,11 +1,12 @@
 #!/bin/bash
 
+vim package.json # to update version
+vim projects/dynamic-form/package.json
+
+
 git add -A
 git commit
 git push origin master
-
-vim package.json # to update version
-vim projects/dynamic-form/package.json
 
 ng build dynamic-form --prod
 
