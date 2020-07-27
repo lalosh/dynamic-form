@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/dynamic-form/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/dynamic-form/tsconfig.spec.json"
+    }
+]
 }
